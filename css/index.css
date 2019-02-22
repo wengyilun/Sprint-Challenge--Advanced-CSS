@@ -289,6 +289,8 @@ footer {
   background-color: #22283A;
   color: white;
   text-align: center;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #ededee;
