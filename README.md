@@ -33,15 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+Adaptive website was designed based on specific device sizes. Since there are hundreds of devices out there nowadays, this method of designing has been phased out. And now the responsive website design method has taken its place. Responsive website can target devices within specific ranges, i.e breakpoints. And design layouts can be rearranged based on which range the screen size is currently detected.
 
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first paradigm is to design the website for the mobile screen first. And since mobile screen have smaller display areas, only the most essential elements can be displayed, making it more performant, which is the key to mobile app design. Once the mobile design is set, css breakpoints targeting larger screens will then be added. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Font size 65.5% was derived from = 10px divided by 16px. Since the brower's user agent's default font-size is usually 16px. And to make it easier for us to assign a font-size in rem, we usually set the font-size in the html tag
+to be 10px. So since rem unit is relative to the base font-size, i.e. font-size set in the html tag, a 20px font size can be written as 2rem (20px/10px).
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessor is a compiler is a processor which understands a specific language that can take a input file written in this specific language syntax and output it to a css file for the html file to consume.
+So, you can think of it as a adaptor or a converter.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Mixin is the most time saving feature of preprocessors like LESS and SASS. It promotes code centralization and re-usability. It allows the programmer to keep the CSS code organized and DRY (Don't repeat yourself).
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
