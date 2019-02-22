@@ -291,6 +291,7 @@ footer {
   text-align: center;
   transition-duration: 0.3s;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #ededee;
