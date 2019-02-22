@@ -1,1 +1,22 @@
 // Mixins Here
+.no-underline{
+  text-decoration: none;
+}
+
+.custom-layout(@direction:row, @main-axis-mode:center, @cross-axis-mode:center){
+  display:flex;
+  flex-direction:@direction;
+  justify-content:@main-axis-mode;
+  align-items: @cross-axis-mode;
+}
+
+.custom-button(@color:white, @bg-color:@btn-bg-color, @width:100px){
+  width:@width;
+  padding:8px 4px;
+  font-size: 1.4rem;
+  border-radius:6px;
+  background-color:@bg-color;
+  color:@color;
+  text-align:center;
+}
+
